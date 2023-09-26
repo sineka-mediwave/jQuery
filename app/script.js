@@ -5,6 +5,11 @@ $(document).ready(function () {
     },
     function () {
       $(this).hide();
+      //   $(this).css("display", "none");
     }
   );
+
+  $("button").click(function () {
+    alert("alerting you");
+  });
 });
